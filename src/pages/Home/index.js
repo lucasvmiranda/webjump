@@ -16,7 +16,7 @@ import {
   AreaInputSearch,
 } from './styles';
 
-const baseURL = 'https://pokeapi.co/api/v2/pokemon?limit=260&offset=0';
+const baseURL = 'https://pokeapi.co/api/v2/pokemon?limit=&offset=0';
 
 export function Home({navigation}) {
   const [pokemons, setPokemons] = useState(null);
@@ -35,8 +35,6 @@ export function Home({navigation}) {
       });
     }
   }, [search]);
-
-  console.warn('pobaseURL + searchke', baseURL + search);
 
   return (
     <Container>

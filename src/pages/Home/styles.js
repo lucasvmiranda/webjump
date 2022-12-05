@@ -46,4 +46,5 @@ export const AreaInputSearch = styled.View`
   border: 1px solid #3663ad;
   flex-direction: row;
   align-items: center;
+  padding: 0 15px;
 `;
